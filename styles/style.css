@@ -1,0 +1,48 @@
+body{
+    background: #0f0c29;  
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    
+}
+.sss{
+    color: #C9D6FF;  /* fallback for old browsers */
+    color: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.a{
+    font-size: 20px;
+    margin-bottom: 150px;
+}
+.b{
+    margin-top: 5000px;
+}
+/* .aks{
+    transition: width 2s, height 2s, transform 2s;
+}
+.aks:hover{
+    transform: rotate(180deg);
+} */
+/* .aks:hover {
+    animation: shakeImg 0.5s;
+    animation-iteration-count: infinite;
+ }
+ @keyframes shakeImg {
+    0% { transform: translate(1px, 1px) rotate(5deg); }
+    20% { transform: translate(-3px, 0px) rotate(10deg); }
+    30% { transform: translate(3px, 2px) rotate(-10deg); }
+    50% { transform: translate(-1px, 2px) rotate(-20deg); }
+    70% { transform: translate(3px, 1px) rotate(-25deg); }
+    90% { transform: translate(1px, 2px) rotate(10deg); }
+    100% { transform: translate(1px, -2px) rotate(-10deg); }
+ } */
+ .aks figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.aks figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
